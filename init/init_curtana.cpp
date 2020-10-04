@@ -87,7 +87,8 @@ void load_property_file_by_mount_point(const std::string mount_point, const stru
 LOG(INFO) << PROPERTY_LOADER << "Loading properties from " << mount_point;
 const std::string mnt = "/s", property_file = mnt + "/build.prop";
 mkdir(mnt.c_str(), 755);
-mount(("/dev/block/bootdevice/by-name" + mount_point).c_str(), mnt.c_str(), "ext4", MS_RDONLY, NULL);
+const std::string block_device = (mount_point == "/system" ? "/system_root" : "/dev/block/bootdevice/by-name");
+mount((block_device + mount_point).c_str(), mnt.c_str(), "ext4", MS_RDONLY, NULL);
   struct stat st;
   if(stat(property_file.c_str(), &st) == 0) {
   LOG(INFO) << PROPERTY_LOADER << "Found property file: " << mount_point << "/build.prop";
