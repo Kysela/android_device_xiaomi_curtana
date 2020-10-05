@@ -50,7 +50,6 @@ const struct one_str_struct required_system_properties[] = {
 	{ "ro.build.version.release" },
 	{ "ro.treble.enabled" },
 	{ "ro.expect.recovery_id" },
-	{ "ro.product.mod_device" },
 	{ "ro.build.version.security_patch" },
 	{ "ro.build.version.sdk" },
 	{ "" },
@@ -81,6 +80,15 @@ void property_symlink(char const prop1[], char const prop2[]) {
     return;
     LOG(INFO) << PROPERTY_LOADER << "Symlinking property value " << prop1 << " to " << prop2;
     property_update(prop2, value);
+}
+
+void set_device(const std::string model, const std::string name)
+{
+    property_update("ro.product.model", model.c_str());
+    property_update("ro.product.name", name.c_str());
+    property_update("ro.build.product", name.c_str());
+    property_update("ro.product.device", name.c_str());
+    property_update("ro.vendor.product.device", name.c_str());
 }
 
 void load_property_file_by_mount_point(const std::string mount_point, const struct one_str_struct *required_mount_point_properties) {
@@ -115,8 +123,20 @@ mount(mount_point.c_str(), mnt.c_str(), "ext4", MS_RDONLY, NULL);
 }
 
 void vendor_load_properties() {
-load_property_file_by_mount_point("system", required_system_properties);
-load_property_file_by_mount_point("vendor", required_vendor_properties);
+char model_id[PROPERTY_VALUE_MAX];
+__system_property_get("ro.boot.hwname", model_id, "error");
+if (strcmp(model_id, "curtana") == 0)
+     set_device("Redmi Note 9", "curtana");
+else if (strcmp(model_id, "joyeuse") == 0)
+     set_device("Redmi Note 9 Pro", "joyeuse");
+else if (strcmp(model_id, "excalibur") == 0)
+     set_device("Redmi Note 9 Pro Max", "excalibur");
+else if (strcmp(model_id, "gram") == 0)
+     set_device("POCO M2 Pro", "gram");
+else
+     set_device("Redmi Note 9", "curtana");
+load_property_file_by_mount_point("/dev/block/dm-0", required_system_properties);
+load_property_file_by_mount_point("/dev/block/dm-2", required_vendor_properties);
 property_symlink("ro.build.fingerprint", "ro.bootimage.build.fingerprint");
 }
 }  // namespace init
