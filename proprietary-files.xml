@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<!--
+ Copyright (C) 2020 ATGDroid <bythedroid@gmail.com>
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+
+<proprietary>
+    <proprietary_files>
+        <file path="/system/usr/share/zoneinfo/tzdata" name="tzdata" size_in_bytes="504430" md5sum="9a85a90d1e4fbab63e117a2c6b95af49" require_relink="false" />
+        <file path="/vendor/bin/qseecomd" name="qseecomd" size_in_bytes="19848" md5sum="17f4f3f851a394867385086438d362cc" require_relink="true" />
+        <file path="/system/lib64/libcutils.so" name="libcutils.so" size_in_bytes="73984" md5sum="a722d3cbca06cd213730c69a2597ff1a" require_relink="false" />
+        <file path="/system/lib64/liblog.so" name="liblog.so" size_in_bytes="96384" md5sum="f6ffb97ffca3021d5bceb0f252611196" require_relink="false" />
+        <file path="/system/lib64/libc++.so" name="libc++.so" size_in_bytes="854304" md5sum="65dcfc4b7d72512642db89bec34ae011" require_relink="false" />
+        <file path="/system/lib64/libc.so" name="libc.so" size_in_bytes="46" md5sum="519705e58872522dfbde440efa4bdde0" require_relink="false" />
+        <file path="/system/lib64/ld-android.so" name="ld-android.so" size_in_bytes="9632" md5sum="7fc61ed00f89535a5ca568c177e70a58" require_relink="false" />
+        <file path="/system/lib64/libdl.so" name="libdl.so" size_in_bytes="47" md5sum="eeac25039f796ad525abedba7da227ca" require_relink="false" />
+        <file path="/system/lib64/libm.so" name="libm.so" size_in_bytes="46" md5sum="c5a8e7eb1ac4ccc2078dcfde1d16b91d" require_relink="false" />
+        <file path="/system/lib64/libbase.so" name="libbase.so" size_in_bytes="79464" md5sum="b8157c96fec035e2c32dd67e27071efb" require_relink="false" />
+        <file path="/system/lib64/libutils.so" name="libutils.so" size_in_bytes="121592" md5sum="cfa4b52173d577be37f2ba26e8aa7fef" require_relink="false" />
+        <file path="/system/lib64/libprocessgroup.so" name="libprocessgroup.so" size_in_bytes="263616" md5sum="6ebb2e1fe2ae7d1743fd19b26d889ada" require_relink="false" />
+        <file path="/system/lib64/libcgrouprc.so" name="libcgrouprc.so" size_in_bytes="20080" md5sum="b4d54fcb68bb107353c1bdf30ca01b2d" require_relink="false" />
+        <file path="/system/lib64/libvndksupport.so" name="libvndksupport.so" size_in_bytes="15552" md5sum="a11915144dd43a7a239d0547d74aaad4" require_relink="false" />
+        <file path="/system/lib64/libdl_android.so" name="libdl_android.so" size_in_bytes="10208" md5sum="7ef7a2803e42b1e8ae9ca60fa1aceb70" require_relink="false" />
+        <file path="/vendor/lib64/libQSEEComAPI.so" name="libQSEEComAPI.so" size_in_bytes="35968" md5sum="6f39e64b3240860b36985bea1c24ceb9" require_relink="false" />
+        <file path="/system/lib64/libion.so" name="libion.so" size_in_bytes="15192" md5sum="4cd727018168b169d9d508c648af29e4" require_relink="false" />
+        <file path="/vendor/lib64/libdrmfs.so" name="libdrmfs.so" size_in_bytes="36472" md5sum="ae77dc500a5b37a5ae632b859eeabf2b" require_relink="false" />
+        <file path="/vendor/lib64/libdiag.so" name="libdiag.so" size_in_bytes="199200" md5sum="3e1a71199fe02aa27c7f511031b4f3c9" require_relink="false" />
+        <file path="/system/lib64/libxml2.so" name="libxml2.so" size_in_bytes="1332656" md5sum="a6dd92005ba3908f10cda6fb731c57a2" require_relink="false" />
+        <file path="/vendor/lib64/libtime_genoff.so" name="libtime_genoff.so" size_in_bytes="15152" md5sum="d638628902c09c6a6bab40dca985812f" require_relink="false" />
+        <file path="/vendor/lib64/libStDrvInt.so" name="libStDrvInt.so" size_in_bytes="15336" md5sum="e90b1add80c3d0a64300d43a0e1f4156" require_relink="false" />
+        <file path="/vendor/lib64/libsecureui.so" name="libsecureui.so" size_in_bytes="37288" md5sum="441ebd4fa1b71e1ed36228f5ad87bcd0" require_relink="false" />
+        <file path="/system/lib64/libhidlbase.so" name="libhidlbase.so" size_in_bytes="700472" md5sum="d634fb5176ebcfac03ecee46761274f1" require_relink="false" />
+        <file path="/system/lib64/libhwbinder.so" name="libhwbinder.so" size_in_bytes="14896" md5sum="cdc2747e3d5e1e2910c162e537a06b0a" require_relink="false" />
+        <file path="/system/lib64/libbinderthreadstate.so" name="libbinderthreadstate.so" size_in_bytes="23928" md5sum="0ea4e4c78acd56fff36fbd2562423f6f" require_relink="false" />
+        <file path="/system/lib64/libhidltransport.so" name="libhidltransport.so" size_in_bytes="14896" md5sum="2310c5855dc4ca3affe2af4aaf995033" require_relink="false" />
+        <file path="/system/lib64/libbinder.so" name="libbinder.so" size_in_bytes="647256" md5sum="adefc0634327c31e80c65fc03a73530d" require_relink="false" />
+        <file path="/vendor/lib64/libsecureui_svcsock.so" name="libsecureui_svcsock.so" size_in_bytes="38432" md5sum="9ba834442370cfb9b07b5553d909c94a" require_relink="false" />
+        <file path="/vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so" name="vendor.qti.hardware.tui_comm@1.0.so" size_in_bytes="143696" md5sum="6cc2cd0ae75c191e37da8ae1e4b40d72" require_relink="false" />
+        <file path="/vendor/lib64/vendor.display.config@1.0.so" name="vendor.display.config@1.0.so" size_in_bytes="135968" md5sum="4b6a0758b221b0a9fd608aec6b960a0b" require_relink="false" />
+        <file path="/vendor/lib64/libGPreqcancel_svc.so" name="libGPreqcancel_svc.so" size_in_bytes="27792" md5sum="3d8baff73ba31c9d11e6110ea8e9d960" require_relink="false" />
+        <file path="/vendor/lib64/libkeymasterprovision.so" name="libkeymasterprovision.so" size_in_bytes="32272" md5sum="98bc920ad59dddf86629e7b70c976ede" require_relink="false" />
+        <file path="/system/lib64/libcrypto.so" name="libcrypto.so" size_in_bytes="1318120" md5sum="3db4d1d8a0b8fdd383edf9bcce33aa83" require_relink="false" />
+        <file path="/vendor/lib64/libkeymasterdeviceutils.so" name="libkeymasterdeviceutils.so" size_in_bytes="19536" md5sum="8e64ed9d4afee3e8390afb6b44028148" require_relink="false" />
+        <file path="/vendor/lib64/libkeymasterutils.so" name="libkeymasterutils.so" size_in_bytes="42696" md5sum="75ea4169f61855d0dc737af800c9c18d" require_relink="false" />
+        <file path="/vendor/lib64/libGPreqcancel.so" name="libGPreqcancel.so" size_in_bytes="23768" md5sum="3c0f46e99eb8cb82cff5fff580a4c898" require_relink="false" />
+        <file path="/vendor/lib64/libkeymasterdeviceutils.so" name="libkeymasterdeviceutils.so" size_in_bytes="19536" md5sum="8e64ed9d4afee3e8390afb6b44028148" require_relink="false" />
+        <file path="/vendor/lib64/libQSEEComAPI.so" name="libQSEEComAPI.so" size_in_bytes="35968" md5sum="6f39e64b3240860b36985bea1c24ceb9" require_relink="false" />
+        <file path="/vendor/lib64/libsecureui_svcsock.so" name="libsecureui_svcsock.so" size_in_bytes="38432" md5sum="9ba834442370cfb9b07b5553d909c94a" require_relink="false" />
+        <file path="/vendor/lib64/libdrmtime.so" name="libdrmtime.so" size_in_bytes="19464" md5sum="0d604f64adc266a4c9c08409a8494c99" require_relink="false" />
+        <file path="/vendor/lib64/librpmb.so" name="librpmb.so" size_in_bytes="36456" md5sum="dd8fc2b1fc0b11adbffd1b9b0c468dd0" require_relink="false" />
+        <file path="/vendor/lib64/libdrmfs.so" name="libdrmfs.so" size_in_bytes="36472" md5sum="ae77dc500a5b37a5ae632b859eeabf2b" require_relink="false" />
+        <file path="/vendor/lib64/libssd.so" name="libssd.so" size_in_bytes="15320" md5sum="83ecd7149d6a02d646427d3aae7893df" require_relink="false" />
+        <file path="/vendor/lib64/libSecureUILib.so" name="libSecureUILib.so" size_in_bytes="23832" md5sum="9fca123b043c98f12b96e5500a25557f" require_relink="false" />
+        <file path="/vendor/lib64/libqisl.so" name="libqisl.so" size_in_bytes="23944" md5sum="abdc28aebdf5016563018255a1de8e14" require_relink="false" />
+        <file path="/vendor/lib64/libdiag.so" name="libdiag.so" size_in_bytes="199200" md5sum="3e1a71199fe02aa27c7f511031b4f3c9" require_relink="false" />
+        <file path="/vendor/lib64/libkeymasterutils.so" name="libkeymasterutils.so" size_in_bytes="42696" md5sum="75ea4169f61855d0dc737af800c9c18d" require_relink="false" />
+        <file path="/vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so" name="android.hardware.gatekeeper@1.0-impl-qti.so" size_in_bytes="29024" md5sum="4b9f09f654108eedb4544e9dbbdf43d1" require_relink="false" />
+        <file path="/system/lib64/android.hardware.gatekeeper@1.0.so" name="android.hardware.gatekeeper@1.0.so" size_in_bytes="92976" md5sum="30dc9b70f17f94d0bc0dbb291408338b" require_relink="false" />
+        <file path="/system/etc/vintf/compatibility_matrix.1.xml" name="compatibility_matrix.1.xml" size_in_bytes="71968" md5sum="410f42102d83be790c7ee07697aebe37" require_relink="false" />
+        <file path="/system/etc/vintf/compatibility_matrix.2.xml" name="compatibility_matrix.2.xml" size_in_bytes="74191" md5sum="553007005f1be26775b5e11039f26239" require_relink="false" />
+        <file path="/system/etc/vintf/compatibility_matrix.3.xml" name="compatibility_matrix.3.xml" size_in_bytes="90344" md5sum="d656ea6663a944c12fc730b2fa015fe2" require_relink="false" />
+        <file path="/system/etc/vintf/compatibility_matrix.4.xml" name="compatibility_matrix.4.xml" size_in_bytes="114114" md5sum="fb5233c1434506dd06b29949c63a6fd0" require_relink="false" />
+        <file path="/system/etc/vintf/compatibility_matrix.device.xml" name="compatibility_matrix.device.xml" size_in_bytes="25185" md5sum="777bb6904255e1a9cbb1a4fccbf8aa65" require_relink="false" />
+        <file path="/system/etc/vintf/compatibility_matrix.legacy.xml" name="compatibility_matrix.legacy.xml" size_in_bytes="71977" md5sum="2dc9ce0dd6ce9130fe663a1a9bab4a74" require_relink="false" />
+        <file path="/system/etc/vintf/manifest.xml" name="manifest.xml" size_in_bytes="4254" md5sum="31472ab0de41f3c8b2f9a93017a936d2" require_relink="false" />
+        <file path="/vendor/lib/modules/exfat.ko" name="exfat.ko" size_in_bytes="171718" md5sum="0de55f093da6d0af598074d92b033994" require_relink="false" />
+        <file path="/vendor/manifest.xml" name="manifest.xml" size_in_bytes="33101" md5sum="235ade71e579a8009f4e0657843ab831" require_relink="false" />
+        <file path="/vendor/etc/vintf/compatibility_matrix.xml" name="compatibility_matrix.xml" size_in_bytes="2275" md5sum="6ec9d6dadc1540158babb44a20dbdd29" require_relink="false" />
+        <file path="/vendor/etc/vintf/manifest.xml" name="manifest.xml" size_in_bytes="38530" md5sum="0dc9c0885f64ff28e0229c9cac3fa587" require_relink="false" />
+        <file path="/system/lib64/android.hardware.keymaster@3.0.so" name="android.hardware.keymaster@3.0.so" size_in_bytes="140976" md5sum="0be5a2994f1d6b560a72c2a9b23348f4" require_relink="false" />
+        <file path="/system/lib64/android.hardware.keymaster@4.0.so" name="android.hardware.keymaster@4.0.so" size_in_bytes="158576" md5sum="8f8e43b13faa621b3a6b774893b7b450" require_relink="false" />
+        <file path="/system/lib64/android.hidl.base@1.0.so" name="android.hidl.base@1.0.so" size_in_bytes="88536" md5sum="6ba964f6f29be91027d77230a2d9a06a" require_relink="false" />
+        <file path="/system/lib64/android.hidl.token@1.0-utils.so" name="android.hidl.token@1.0-utils.so" size_in_bytes="20544" md5sum="0d100b26da9d70455260a173f615f4e4" require_relink="false" />
+        <file path="/system/lib64/android.hidl.token@1.0.so" name="android.hidl.token@1.0.so" size_in_bytes="88248" md5sum="84ed3bbad19695ef99877f8233a946dd" require_relink="false" />
+        <file path="/system/lib64/android.system.wifi.keystore@1.0.so" name="android.system.wifi.keystore@1.0.so" size_in_bytes="88768" md5sum="ba89125f1c380cb33b4bf9f0a1ae1c2d" require_relink="false" />
+        <file path="/vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti" name="android.hardware.gatekeeper@1.0-service-qti" size_in_bytes="11520" md5sum="1ccf35cfec4af70644eeb0eee0275ec7" require_relink="true" />
+        <file path="/system/lib64/libhardware.so" name="libhardware.so" size_in_bytes="15296" md5sum="7b0c7329ea03f03755f333ccc9687f27" require_relink="false" />
+        <file path="/vendor/bin/hw/android.hardware.keymaster@4.0-service-qti" name="android.hardware.keymaster@4.0-service-qti" size_in_bytes="11784" md5sum="ba1050a1fe6bad8144a6210dbdbc101e" require_relink="true" />
+        <file path="/vendor/lib64/libqtikeymaster4.so" name="libqtikeymaster4.so" size_in_bytes="96008" md5sum="4819976adabe44a8710417d346ace84d" require_relink="false" />
+        <file path="/system/lib64/android.hardware.confirmationui@1.0.so" name="android.hardware.confirmationui@1.0.so" size_in_bytes="125520" md5sum="5496e58d764ca13513ab81fd09a557f7" require_relink="false" />
+        <file path="/system/lib64/vndk-29/android.hardware.confirmationui-support-lib.so" name="android.hardware.confirmationui-support-lib.so" size_in_bytes="14920" md5sum="c736e48f42c02131d3d2496ca9556b03" require_relink="false" />
+        <file path="/system/lib64/vndk-29/android.hardware.weaver@1.0.so" name="android.hardware.weaver@1.0.so" size_in_bytes="84448" md5sum="bc94da8bb933095503a5253063958acb" require_relink="false" />
+        <file path="/system/lib64/vndk-29/libpuresoftkeymasterdevice.so" name="libpuresoftkeymasterdevice.so" size_in_bytes="46000" md5sum="4f182a1a77814b2b994f0d1f657b49ef" require_relink="false" />
+        <file path="/system/lib64/libkeymaster_messages.so" name="libkeymaster_messages.so" size_in_bytes="105376" md5sum="ed18bf369b9d400cf9a7eb5d3314ade2" require_relink="false" />
+        <file path="/system/lib64/libkeymaster_portable.so" name="libkeymaster_portable.so" size_in_bytes="366968" md5sum="5a284c5666af59cf58f2be264b529c35" require_relink="false" />
+        <file path="/vendor/etc/selinux/vendor_file_contexts" name="vendor_file_contexts" size_in_bytes="65622" md5sum="4af69fa22717ffb4b696da36eda61588 " require_relink="false" />
+        <file path="/vendor/etc/selinux/vendor_hwservice_contexts" name="vendor_hwservice_contexts" size_in_bytes="10121" md5sum="5b372c08bb43e7842fd596797fb70949 " require_relink="false" />
+        <file path="/vendor/etc/selinux/vendor_property_contexts" name="vendor_property_contexts" size_in_bytes="18586" md5sum="8dacd731dcbbfe8e0592937b5ea7d950 " require_relink="false" />
+        <file path="/vendor/etc/selinux/vendor_seapp_contexts" name="vendor_seapp_contexts" size_in_bytes="1920" md5sum="e04ab64c56d4a78d6a6f439abd230a31 " require_relink="false" />
+        <file path="/vendor/etc/selinux/vndservice_contexts" name="vndservice_contexts" size_in_bytes="561" md5sum="375d042b8daf267c95182e3931a635ee " require_relink="false" />
+        <file path="/system/etc/selinux/plat_file_contexts" name="plat_file_contexts" size_in_bytes="33626" md5sum="ceced48868dcebf160e71f015725a259 " require_relink="false" />
+        <file path="/system/etc/selinux/plat_hwservice_contexts" name="plat_hwservice_contexts" size_in_bytes="8428" md5sum="beebca6c57f46f53c3edfc5efd5f0842 " require_relink="false" />
+        <file path="/system/etc/selinux/plat_property_contexts" name="plat_property_contexts" size_in_bytes="45374" md5sum="e6c158cc10fca6947f867a7f2110035e " require_relink="false" />
+        <file path="/system/etc/selinux/plat_seapp_contexts" name="plat_seapp_contexts" size_in_bytes="3930" md5sum="d469f8f62bd7400b2f973aa302a1280d " require_relink="false" />
+        <file path="/system/etc/selinux/plat_service_contexts" name="plat_service_contexts" size_in_bytes="19875" md5sum="c808d863eac21abb9c56ca7c6c708aa9 " require_relink="false" />
+        <file path="/ueventd.rc" name="ueventd.rc" size_in_bytes="2711" md5sum="5ffc07f7cfc49086ce8f0c901f4d97f7 " require_relink="false" />
+    </proprietary_files>
+</proprietary>

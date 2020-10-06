@@ -1,0 +1,192 @@
+<?xml version="1.0"?>
+<!--
+ Copyright (C) 2020 ATGDroid <bythedroid@gmail.com>
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+
+<!-- Generated based on Redmi/joyeuse_eea/joyeuse:10/QKQ1.191215.002/V11.0.3.0.QJZEUXM:user/release-keys -->
+<partitions>
+    <physical_partition>
+        <!-- unknown -->
+        <partition label="ALIGN_TO_128K_1" size_in_bytes="106496" type="DA448629-0E1C-49C2-A73C-32235C5DB8D3" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/ALIGN_TO_128K_1" blockdevice="/dev/block/sdd1" can_be_mounted="false" filesystem="emmc"/>
+        <!-- unknown -->
+        <partition label="ALIGN_TO_128K_2" size_in_bytes="106496" type="0E248DC2-AA48-4F24-8E2A-5104F205B770" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/ALIGN_TO_128K_2" blockdevice="/dev/block/sdf1" can_be_mounted="false" filesystem="emmc"/>
+        <!-- (bootloader.img or aboot.mbn file in Factory Firmware) - Applications Bootloader is the main bootloader responsible for loading kernel or recovey and fastboot - a Firmware Update Protocol - as well. -->
+        <partition label="abl" size_in_bytes="8388608" type="2EBCD492-6CA4-4FB0-9CB0-D6DFF7483A8F" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/abl" blockdevice="/dev/block/sde8" can_be_mounted="false" filesystem="emmc"/>
+        <!-- Backup partition of abl -->
+        <partition label="ablbak" size_in_bytes="8388608" type="951C6462-F8C1-42E3-8BDE-8C745E1B8061" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/ablbak" blockdevice="/dev/block/sde24" can_be_mounted="false" filesystem="emmc"/>
+        <!-- unknown -->
+        <partition label="aop" size_in_bytes="524288" type="253FE7EE-3F52-4F8A-AB52-9705435F0B21" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/aop" blockdevice="/dev/block/sde1" can_be_mounted="false" filesystem="emmc"/>
+        <!-- Backup partition of aop -->
+        <partition label="aopbak" size_in_bytes="524288" type="EFCF6E61-8D39-41EF-BBF1-A4C5C1A67208" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/aopbak" blockdevice="/dev/block/sde17" can_be_mounted="false" filesystem="emmc"/>
+        <!-- related to debug policies -->
+        <partition label="apdp" size_in_bytes="262144" type="653C75D6-5DFE-401F-868A-29B410328614" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/apdp" blockdevice="/dev/block/sde35" can_be_mounted="false" filesystem="emmc"/>
+        <!-- bluetooth firmware -->
+        <partition label="bluetooth" size_in_bytes="1048576" type="140C1000-06F3-4E29-896B-54B85668BB5B" readonly="false" partition_have_uuid="true" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/bluetooth" blockdevice="/dev/block/sde5" can_be_mounted="true" mount_point="/vendor/bt_firmware" filesystem="vfat"/>
+        <!-- Backup partition of bluetooth -->
+        <partition label="bluetoothbak" size_in_bytes="1048576" type="D3AF2E88-98E5-46BA-B1AC-C04068FC55BF" readonly="false" partition_have_uuid="true" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/bluetoothbak" blockdevice="/dev/block/sde21" can_be_mounted="true" filesystem="vfat"/>
+        <!-- Kernel and initramfs (modern form of of ramdisk and ramfs/tmpfs) -->
+        <partition label="boot" size_in_bytes="134217728" type="F3D952C2-155A-488D-8FBB-D2DE74F38166" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/boot" blockdevice="/dev/block/sde51" can_be_mounted="false" filesystem="emmc"/>
+        <!-- Backup partition of boot -->
+        <partition label="bootbak" size_in_bytes="134217728" type="E4864DAB-B81D-446C-9000-99512C6C66CE" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/bootbak" blockdevice="/dev/block/sde55" can_be_mounted="false" filesystem="emmc"/>
+        <!-- cached (frequently accessed) data from OS usage and contains the firmware update package downloaded from server during OTA updates -->
+        <partition label="cache" size_in_bytes="402653184" type="2DADF272-783A-4AB8-8B67-356154B0CC84" readonly="false" partition_have_uuid="true" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/cache" blockdevice="/dev/block/sda13" can_be_mounted="true" mount_point="/cache" filesystem="ext4"/>
+        <!-- unknown -->
+        <partition label="catecontentfv" size_in_bytes="1048576" type="F97008A3-2A23-48E3-8C35-5E2057AFF6CE" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/catecontentfv" blockdevice="/dev/block/sde49" can_be_mounted="false" filesystem="emmc"/>
+        <!-- unknown -->
+        <partition label="catefv" size_in_bytes="524288" type="B607FFBA-E7CF-48E4-A990-2AFF399B7D5A" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/catefv" blockdevice="/dev/block/sde48" can_be_mounted="false" filesystem="emmc"/>
+        <!-- unknown -->
+        <partition label="cateloader" size_in_bytes="2097152" type="F71AE026-ED6A-4A37-B158-BD27CECB4216" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/cateloader" blockdevice="/dev/block/sde41" can_be_mounted="false" filesystem="emmc"/>
+        <!-- unknown -->
+        <partition label="cdt" size_in_bytes="131072" type="078C8916-D17E-42F6-8E43-B74E63E3994E" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/cdt" blockdevice="/dev/block/sdd2" can_be_mounted="false" filesystem="emmc"/>
+        <!-- verified boot -->
+        <partition label="cmnlib" size_in_bytes="524288" type="CB291DF1-82A0-4BDC-9F9C-B789C97FD5F9" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/cmnlib" blockdevice="/dev/block/sde11" can_be_mounted="false" filesystem="emmc"/>
+        <!-- verified boot -->
+        <partition label="cmnlib64" size_in_bytes="524288" type="C3FD8B70-81B9-4FB5-BA78-1D22DFC4F783" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/cmnlib64" blockdevice="/dev/block/sde12" can_be_mounted="false" filesystem="emmc"/>
+        <!-- Backup partition of cmnlib64 -->
+        <partition label="cmnlib64bak" size_in_bytes="524288" type="06C48140-E242-4CCE-9FD1-61B9FD3A6575" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/cmnlib64bak" blockdevice="/dev/block/sde28" can_be_mounted="false" filesystem="emmc"/>
+        <!-- Backup partition of cmnlib -->
+        <partition label="cmnlibbak" size_in_bytes="524288" type="55163511-2CBB-4069-829E-C3F5DEC356EE" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/cmnlibbak" blockdevice="/dev/block/sde27" can_be_mounted="false" filesystem="emmc"/>
+        <!-- used by stock ROM's, holding some preloaded system apps and regional settings which are installed on first use. -->
+        <partition label="cust" size_in_bytes="1073741824" type="F2A8CB0A-586F-4E05-9BBC-D716FA687809" readonly="false" partition_have_uuid="true" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/cust" blockdevice="/dev/block/sda7" can_be_mounted="true" mount_point="/cust" filesystem="ext4"/>
+        <!-- Double Data Rate RAM -->
+        <partition label="ddr" size_in_bytes="1048576" type="066E67AC-89B9-4AEA-B179-73333908A772" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/ddr" blockdevice="/dev/block/sdd3" can_be_mounted="false" filesystem="emmc"/>
+        <!-- used by TZ for upgrades -->
+        <partition label="devcfg" size_in_bytes="131072" type="6A014B6A-6A43-4C38-BE7F-8EC0B535A1A5" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/devcfg" blockdevice="/dev/block/sde13" can_be_mounted="false" filesystem="emmc"/>
+        <!-- Backup partition of devcfg -->
+        <partition label="devcfgbak" size_in_bytes="131072" type="A82CD441-7D34-4208-B32F-F5E4040E5B9D" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/devcfgbak" blockdevice="/dev/block/sde29" can_be_mounted="false" filesystem="emmc"/>
+        <!-- device information including: is_unlocked (aboot), is_tampered, is_verified, charger_screen_enabled, display_panel, bootloader_version, radio_version etc. Contents of this partition are displayed by "fastboot oem device-info" command in human readable format. Before loading boot.img or recovery.img, bootloader verifies the locked state from this partition. -->
+        <partition label="devinfo" size_in_bytes="4096" type="7E97393F-2BB9-4013-A022-4B490396C7CC" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/devinfo" blockdevice="/dev/block/sde33" can_be_mounted="false" filesystem="emmc"/>
+        <!-- boot verification, use Qualcomm SafeSwitch technology to lock and track theft phones -->
+        <partition label="dip" size_in_bytes="1048576" type="E3FCD986-283C-4A37-8B58-703067D099D0" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/dip" blockdevice="/dev/block/sde34" can_be_mounted="false" filesystem="emmc"/>
+        <!-- (Digital Signal Processor) - by Qualcomm to assist in things like smooth video playback (realtime media and sensors processor) -->
+        <partition label="dsp" size_in_bytes="33554432" type="B123329E-4CA7-4DE2-9307-16B284BBFD46" readonly="false" partition_have_uuid="true" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/dsp" blockdevice="/dev/block/sde9" can_be_mounted="true" mount_point="/vendor/dsp" filesystem="ext4"/>
+        <!-- Backup partition of dsp -->
+        <partition label="dspbak" size_in_bytes="33554432" type="9F3F26A2-7F6A-4750-8EB8-E41AA69E6DF8" readonly="false" partition_have_uuid="true" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/dspbak" blockdevice="/dev/block/sde25" can_be_mounted="true" mount_point="/dsp" filesystem="ext4"/>
+        <!-- unknown -->
+        <partition label="dtbo" size_in_bytes="25165824" type="E1887706-F8D3-4931-B604-489DD43D5B60" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/dtbo" blockdevice="/dev/block/sde52" can_be_mounted="false" filesystem="emmc"/>
+        <!-- Backup partition of dtbo -->
+        <partition label="dtbobak" size_in_bytes="25165824" type="EF450FDB-8225-4861-AAC9-04705FC6BA90" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/dtbobak" blockdevice="/dev/block/sde54" can_be_mounted="false" filesystem="emmc"/>
+        <!-- unknown -->
+        <partition label="exaid" size_in_bytes="402653184" type="4622D6F4-6820-4767-9A04-62ED1DF56145" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/exaid" blockdevice="/dev/block/sda14" can_be_mounted="false" filesystem="emmc"/>
+        <!-- unknown -->
+        <partition label="ffu" size_in_bytes="8388608" type="E1414762-6348-409D-952D-6C63F7D53DE8" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/ffu" blockdevice="/dev/block/sda16" can_be_mounted="false" filesystem="emmc"/>
+        <!-- saves state of Factory Reset Protection (FRP), Allow bootloader (OEM) unlocking (Developer Options), asks already associated account info -->
+        <partition label="frp" size_in_bytes="524288" type="0E067BB3-7DC2-49C5-8924-6941134D0C91" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/frp" blockdevice="/dev/block/sda5" can_be_mounted="false" filesystem="emmc"/>
+        <!-- Modem File System Cookie partition -->
+        <partition label="fsc" size_in_bytes="131072" type="40E875FA-AAC4-449C-A53A-6F2E9F4BBA8D" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/fsc" blockdevice="/dev/block/sdf5" can_be_mounted="false" filesystem="emmc"/>
+        <!-- Modem filesystem golden backup -->
+        <partition label="fsg" size_in_bytes="10485760" type="49B1576B-445B-4579-A6AD-62590E32FAAB" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/fsg" blockdevice="/dev/block/sdf4" can_be_mounted="false" filesystem="emmc"/>
+        <!-- unknown -->
+        <partition label="gsort" size_in_bytes="16777216" type="D8C52915-3D14-4E85-9192-3D572EF3EF42" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/gsort" blockdevice="/dev/block/sda15" can_be_mounted="false" filesystem="emmc"/>
+        <!-- Virtual Machine Monitor, to enable Virtual Machine platform -->
+        <partition label="hyp" size_in_bytes="524288" type="7C6879DF-0C64-4E8B-85D1-C5C02ED0B86B" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/hyp" blockdevice="/dev/block/sde3" can_be_mounted="false" filesystem="emmc"/>
+        <!-- Backup partition of hyp -->
+        <partition label="hypbak" size_in_bytes="524288" type="ECDE7114-5E2A-47D3-900C-991B90B2EA96" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/hypbak" blockdevice="/dev/block/sde19" can_be_mounted="false" filesystem="emmc"/>
+        <!-- unknown -->
+        <partition label="imagefv" size_in_bytes="2097152" type="1583CA42-B2FC-4A17-B42F-47585D6E7164" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/imagefv" blockdevice="/dev/block/sde15" can_be_mounted="false" filesystem="emmc"/>
+        <!-- Backup partition of imagefv -->
+        <partition label="imagefvbak" size_in_bytes="2097152" type="4DC8E43E-D63E-4E38-B271-60AB29780812" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/imagefvbak" blockdevice="/dev/block/sde31" can_be_mounted="false" filesystem="emmc"/>
+        <!-- verified boot -->
+        <partition label="keymaster" size_in_bytes="524288" type="320AE26D-8956-447B-A59D-A005CEAA23DD" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/keymaster" blockdevice="/dev/block/sde10" can_be_mounted="false" filesystem="emmc"/>
+        <!-- Backup partition of keymaster -->
+        <partition label="keymasterbak" size_in_bytes="524288" type="98433D69-BFEE-4750-A4E8-668CE52C3FDD" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/keymasterbak" blockdevice="/dev/block/sde26" can_be_mounted="false" filesystem="emmc"/>
+        <!-- related to /data Full Disc Encryption (FDE) -->
+        <partition label="keystore" size_in_bytes="524288" type="AC315175-DB5D-4F67-A2FA-A25589D952A4" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/keystore" blockdevice="/dev/block/sda4" can_be_mounted="false" filesystem="emmc"/>
+        <!-- Qualcomm Limits Management Hardware (LMh) driver in SBL writes the data in this partition to use for later reboots -->
+        <partition label="limits" size_in_bytes="4096" type="DBF4208A-1CBD-46AF-AC95-BD8156FF6C7A" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/limits" blockdevice="/dev/block/sde38" can_be_mounted="false" filesystem="emmc"/>
+        <!-- unknown -->
+        <partition label="logdump" size_in_bytes="67108864" type="BD05A717-7A5B-4646-BF0E-A42655B46009" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/logdump" blockdevice="/dev/block/sde42" can_be_mounted="false" filesystem="emmc"/>
+        <!-- unknown -->
+        <partition label="logfs" size_in_bytes="8388608" type="0535B30C-E268-4D6C-8ABF-CAA169D9F393" readonly="false" partition_have_uuid="true" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/logfs" blockdevice="/dev/block/sde40" can_be_mounted="true" mount_point="/LOGFS" filesystem="vfat"/>
+        <!-- boot verification, use Qualcomm SafeSwitch technology to lock and track theft phones -->
+        <partition label="mdtp" size_in_bytes="33554432" type="AA53E531-CE4E-4CF0-A854-33D84A4BC5F9" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/mdtp" blockdevice="/dev/block/sde7" can_be_mounted="false" filesystem="emmc"/>
+        <!-- Backup partition of mdtp -->
+        <partition label="mdtpbak" size_in_bytes="33554432" type="2AD54EC7-CCDD-4FBA-8191-C718A9571066" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/mdtpbak" blockdevice="/dev/block/sde23" can_be_mounted="false" filesystem="emmc"/>
+        <!-- unknown -->
+        <partition label="mdtpsecapp" size_in_bytes="4194304" type="18B4CDB7-BE5F-4E8E-AFC1-D69BCAF9BA5A" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/mdtpsecapp" blockdevice="/dev/block/sde6" can_be_mounted="false" filesystem="emmc"/>
+        <!-- Backup partition of mdtpsecapp -->
+        <partition label="mdtpsecappbak" size_in_bytes="4194304" type="A4765C9B-DEA6-49B2-A52E-747127F757BA" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/mdtpsecappbak" blockdevice="/dev/block/sde22" can_be_mounted="false" filesystem="emmc"/>
+        <!-- The metadata partition is used when device is encrypted and is 16MB or larger. -->
+        <partition label="metadata" size_in_bytes="16777216" type="686C7B4C-5293-45F9-B50B-237B795381D8" readonly="false" partition_have_uuid="true" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/metadata" blockdevice="/dev/block/sda12" can_be_mounted="true" mount_point="/metadata" filesystem="ext4"/>
+        <!-- unknown -->
+        <partition label="minidump" size_in_bytes="134217728" type="728AEB1A-C0D2-4DB8-B763-E444B43638CE" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/minidump" blockdevice="/dev/block/sda6" can_be_mounted="false" filesystem="emmc"/>
+        <!-- boot mode selector used to pass data among various stages of the boot chain (boot into recovery mode, fastboot etc.). e.g. if it is empty (all zero), system boots normally. If it contains recovery mode selector, system boots into recovery mode. -->
+        <partition label="misc" size_in_bytes="1048576" type="B245E145-A54F-4F85-88FB-5561457218D2" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/misc" blockdevice="/dev/block/sda3" can_be_mounted="false" mount_point="/misc" filesystem="emmc"/>
+        <!-- radio partition, responsible for signals and on older devices may control wifi, bluetooth, and GPS -->
+        <partition label="modem" size_in_bytes="268435456" type="52FA0737-72A6-495A-9E8B-08BA40CB25D9" readonly="false" partition_have_uuid="true" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/modem" blockdevice="/dev/block/sde4" can_be_mounted="true" mount_point="/vendor/firmware_mnt" filesystem="vfat"/>
+        <!-- Backup partition of modem -->
+        <partition label="modembak" size_in_bytes="268435456" type="9A1CBD0B-6361-45A6-AADC-CD0E58F35FF7" readonly="false" partition_have_uuid="true" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/modembak" blockdevice="/dev/block/sde20" can_be_mounted="true" filesystem="vfat"/>
+        <!-- modem storage 1 -->
+        <partition label="modemst1" size_in_bytes="2097152" type="97964190-0CB8-4E63-B4CA-FBA7B5CCBD04" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/modemst1" blockdevice="/dev/block/sdf2" can_be_mounted="false" filesystem="emmc"/>
+        <!-- modem storage 2 -->
+        <partition label="modemst2" size_in_bytes="2097152" type="A2D582F5-8ACD-4450-B40B-396CA9BA00A5" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/modemst2" blockdevice="/dev/block/sdf3" can_be_mounted="false" filesystem="emmc"/>
+        <!-- unknown -->
+        <partition label="multiimgoem" size_in_bytes="32768" type="B52C6EB3-F691-4E06-9D0C-89E4CA86B362" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/multiimgoem" blockdevice="/dev/block/sde44" can_be_mounted="false" filesystem="emmc"/>
+        <!-- unknown -->
+        <partition label="multiimgqti" size_in_bytes="32768" type="5420E6FB-E15C-4047-947D-69127A3030DD" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/multiimgqti" blockdevice="/dev/block/sde45" can_be_mounted="false" filesystem="emmc"/>
+        <!-- contains data which shouldn't be changed after the device is shipped, e.g. DRM related files, sensor reg file (sns.reg) and calibration data of chips; wifi, bluetooth, camera etc. -->
+        <partition label="persist" size_in_bytes="33554432" type="68921E18-64D3-4020-9073-415382FF964A" readonly="false" partition_have_uuid="true" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/persist" blockdevice="/dev/block/sda2" can_be_mounted="true" mount_point="/mnt/vendor/persist" filesystem="ext4"/>
+        <!-- unknown -->
+        <partition label="qupfw" size_in_bytes="65536" type="96D016DD-1919-45CC-B7B9-D31428D8F130" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/qupfw" blockdevice="/dev/block/sde14" can_be_mounted="false" filesystem="emmc"/>
+        <!-- Backup partition of qupfw -->
+        <partition label="qupfwbak" size_in_bytes="65536" type="4FF9B387-A191-4713-9914-BAD305737DE7" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/qupfwbak" blockdevice="/dev/block/sde30" can_be_mounted="false" filesystem="emmc"/>
+        <!-- Holds alternate boot partition and the recovery program that lets the device boot into a recovery console for performing advanced recovery and maintenance operations. -->
+        <partition label="recovery" size_in_bytes="134217728" type="39F46785-665D-48D2-9D3B-4FF0B3DF5DAF" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/recovery" blockdevice="/dev/block/sda8" can_be_mounted="false" filesystem="emmc"/>
+        <!-- Backup partition of recovery -->
+        <partition label="recoverybak" size_in_bytes="134217728" type="2995B613-83A8-4755-84F1-71C19FBDAA6B" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/recoverybak" blockdevice="/dev/block/sda9" can_be_mounted="false" filesystem="emmc"/>
+        <!-- unknown -->
+        <partition label="secdata" size_in_bytes="28672" type="ABB6157B-EFCA-46BF-B1EA-F08693A6A665" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/secdata" blockdevice="/dev/block/sde47" can_be_mounted="false" filesystem="emmc"/>
+        <!-- splash image or boot logo which appears when device boots (at ABOOT stage). -->
+        <partition label="splash" size_in_bytes="34226176" type="49438838-0553-417D-B93A-EB5BF03B9D60" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/splash" blockdevice="/dev/block/sde37" can_be_mounted="false" filesystem="emmc"/>
+        <!-- unknown -->
+        <partition label="spunvm" size_in_bytes="8388608" type="CFAE50CE-A049-4A2A-8609-D9506AFC8864" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/spunvm" blockdevice="/dev/block/sde36" can_be_mounted="false" filesystem="emmc"/>
+        <!-- Secure Software Download, a memory based file system for secure storage, stores some encrypted RSA keys -->
+        <partition label="ssd" size_in_bytes="8192" type="5F628030-4875-4503-908D-ED9810EFEBA5" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/ssd" blockdevice="/dev/block/sda1" can_be_mounted="false" filesystem="emmc"/>
+        <!-- unknown -->
+        <partition label="storsec" size_in_bytes="131072" type="765D9D08-D60F-46D4-93CE-2DA496B4FBF2" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/storsec" blockdevice="/dev/block/sde43" can_be_mounted="false" filesystem="emmc"/>
+        <!-- unknown -->
+        <partition label="super" size_in_bytes="8589934592" type="0CEEA5BC-5CC6-4974-828B-7F813D6EC40E" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/super" blockdevice="/dev/block/sda17" can_be_mounted="false" filesystem="emmc"/>
+        <!-- unknown -->
+        <partition label="toolsfv" size_in_bytes="1048576" type="9583E304-3EDD-4D32-A795-B246E7C96791" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/toolsfv" blockdevice="/dev/block/sde39" can_be_mounted="false" filesystem="emmc"/>
+        <!-- TZ (TrustZone) - used by ARM processors as an additional lock to security features -->
+        <partition label="tz" size_in_bytes="4194304" type="318B7937-FA2D-4EE9-931D-EAA234E4F777" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/tz" blockdevice="/dev/block/sde2" can_be_mounted="false" filesystem="emmc"/>
+        <!-- Backup partition of tz -->
+        <partition label="tzbak" size_in_bytes="4194304" type="07242F46-4E67-4384-8E9D-5C2B917F635E" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/tzbak" blockdevice="/dev/block/sde18" can_be_mounted="false" filesystem="emmc"/>
+        <!-- unknown -->
+        <partition label="uefisecapp" size_in_bytes="2097152" type="69D20AEE-A2A4-48F6-99E5-8978D59BB320" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/uefisecapp" blockdevice="/dev/block/sde16" can_be_mounted="false" filesystem="emmc"/>
+        <!-- Backup partition of uefisecapp -->
+        <partition label="uefisecappbak" size_in_bytes="2097152" type="F36321E9-3BCE-42CC-AA5F-2571BE7FE979" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/uefisecappbak" blockdevice="/dev/block/sde32" can_be_mounted="false" filesystem="emmc"/>
+        <!-- unknown -->
+        <partition label="uefivarstore" size_in_bytes="524288" type="B06888C7-0C11-4BB7-940B-0099EDB8157D" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/uefivarstore" blockdevice="/dev/block/sde46" can_be_mounted="false" filesystem="emmc"/>
+        <!-- unknown -->
+        <partition label="userdata" size_in_bytes="112421842944" type="2B049BF1-926E-44E0-9924-2F188C3EF055" readonly="false" partition_have_uuid="true" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/userdata" blockdevice="/dev/block/sda18" can_be_mounted="true" mount_point="/data" filesystem="f2fs"/>
+        <!-- The top-level object for verified boot. -->
+        <partition label="vbmeta" size_in_bytes="65536" type="1A627A1B-E414-41B5-B8EB-07932B5AC1BF" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/vbmeta" blockdevice="/dev/block/sde50" can_be_mounted="false" filesystem="emmc"/>
+        <!-- unknown -->
+        <partition label="vbmeta_system" size_in_bytes="65536" type="DBBC2207-A714-4230-9674-CB3ED6D2ABC5" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/vbmeta_system" blockdevice="/dev/block/sda10" can_be_mounted="false" filesystem="emmc"/>
+        <!-- Backup partition of vbmeta_system -->
+        <partition label="vbmeta_systembak" size_in_bytes="65536" type="E77FC472-2B55-4729-8C32-431BB10D7A73" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/vbmeta_systembak" blockdevice="/dev/block/sda11" can_be_mounted="false" filesystem="emmc"/>
+        <!-- Backup partition of vbmeta -->
+        <partition label="vbmetabak" size_in_bytes="65536" type="C78E0BAD-81CE-45FF-9255-536DA3AD30B7" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/vbmetabak" blockdevice="/dev/block/sde53" can_be_mounted="false" filesystem="emmc"/>
+        <!-- Qualcomm's eXtensible Bootloader -->
+        <partition label="xbl" size_in_bytes="7340032" type="52D05419-68C7-4C7B-9B93-D0E10178BD77" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/xbl" blockdevice="/dev/block/sdb1" can_be_mounted="false" filesystem="emmc"/>
+        <!-- unknown -->
+        <partition label="xbl_config" size_in_bytes="131072" type="5A6A3C22-0283-4309-9E9B-282BC1A6948A" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/xbl_config" blockdevice="/dev/block/sdb2" can_be_mounted="false" filesystem="emmc"/>
+        <!-- Backup partition of xbl_config -->
+        <partition label="xbl_configbak" size_in_bytes="131072" type="D7462DA4-5991-4205-8EAD-AB6BF915528B" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/xbl_configbak" blockdevice="/dev/block/sdc2" can_be_mounted="false" filesystem="emmc"/>
+        <!-- Backup partition of xbl -->
+        <partition label="xblbak" size_in_bytes="7340032" type="48FC44A8-E691-481C-85C7-3A2FDEAC8071" readonly="false" partition_have_uuid="false" partitiondevice="/dev/block/platform/soc/1d84000.ufshc/by-name/xblbak" blockdevice="/dev/block/sdc1" can_be_mounted="false" filesystem="emmc"/>
+    </physical_partition>
+</partitions>

@@ -1,0 +1,71 @@
+#
+# Copyright (C) 2020 ATGDroid <bythedroid@gmail.com>
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+
+FILE_PATH:DEVICE_TREE_PATH
+
+/system/usr/share/zoneinfo/tzdata:recovery/root/system/usr/share/zoneinfo/tzdata
+/vendor/bin/qseecomd:recovery/root/sbin/qseecomd
+/vendor/lib64/libtime_genoff.so:recovery/root/vendor/lib64/libtime_genoff.so
+/vendor/lib64/libStDrvInt.so:recovery/root/vendor/lib64/libStDrvInt.so
+/vendor/lib64/libsecureui.so:recovery/root/vendor/lib64/libsecureui.so
+/vendor/lib64/libGPreqcancel_svc.so:recovery/root/vendor/lib64/libGPreqcancel_svc.so
+/vendor/lib64/libkeymasterprovision.so:recovery/root/vendor/lib64/libkeymasterprovision.so
+/vendor/lib64/libGPreqcancel.so:recovery/root/vendor/lib64/libGPreqcancel.so
+/vendor/lib64/libkeymasterdeviceutils.so:recovery/root/vendor/lib64/libkeymasterdeviceutils.so
+/vendor/lib64/libQSEEComAPI.so:recovery/root/vendor/lib64/libQSEEComAPI.so
+/vendor/lib64/libsecureui_svcsock.so:recovery/root/vendor/lib64/libsecureui_svcsock.so
+/vendor/lib64/libdrmtime.so:recovery/root/vendor/lib64/libdrmtime.so
+/vendor/lib64/librpmb.so:recovery/root/vendor/lib64/librpmb.so
+/vendor/lib64/libdrmfs.so:recovery/root/vendor/lib64/libdrmfs.so
+/vendor/lib64/libssd.so:recovery/root/vendor/lib64/libssd.so
+/vendor/lib64/libSecureUILib.so:recovery/root/vendor/lib64/libSecureUILib.so
+/vendor/lib64/libqisl.so:recovery/root/vendor/lib64/libqisl.so
+/vendor/lib64/libdiag.so:recovery/root/vendor/lib64/libdiag.so
+/vendor/lib64/libkeymasterutils.so:recovery/root/vendor/lib64/libkeymasterutils.so
+/vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so:recovery/root/vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
+/system/etc/vintf/compatibility_matrix.1.xml:recovery/root/system/etc/vintf/compatibility_matrix.1.xml
+/system/etc/vintf/compatibility_matrix.2.xml:recovery/root/system/etc/vintf/compatibility_matrix.2.xml
+/system/etc/vintf/compatibility_matrix.3.xml:recovery/root/system/etc/vintf/compatibility_matrix.3.xml
+/system/etc/vintf/compatibility_matrix.4.xml:recovery/root/system/etc/vintf/compatibility_matrix.4.xml
+/system/etc/vintf/compatibility_matrix.device.xml:recovery/root/system/etc/vintf/compatibility_matrix.device.xml
+/system/etc/vintf/compatibility_matrix.legacy.xml:recovery/root/system/etc/vintf/compatibility_matrix.legacy.xml
+/system/etc/vintf/manifest.xml:recovery/root/system/etc/vintf/manifest.xml
+/vendor/lib/modules/exfat.ko:recovery/root/vendor/lib/modules/exfat.ko
+/vendor/manifest.xml:recovery/root/vendor/manifest.xml
+/vendor/etc/vintf/compatibility_matrix.xml:recovery/root/vendor/etc/vintf/compatibility_matrix.xml
+/vendor/etc/vintf/manifest.xml:recovery/root/vendor/etc/vintf/manifest.xml
+/system/lib64/android.hardware.keymaster@3.0.so:recovery/root/sbin/android.hardware.keymaster@3.0.so
+/system/lib64/android.hardware.keymaster@4.0.so:recovery/root/sbin/android.hardware.keymaster@4.0.so
+/system/lib64/android.hidl.base@1.0.so:recovery/root/sbin/android.hidl.base@1.0.so
+/system/lib64/android.hidl.token@1.0-utils.so:recovery/root/sbin/android.hidl.token@1.0-utils.so
+/system/lib64/android.system.wifi.keystore@1.0.so:recovery/root/sbin/android.system.wifi.keystore@1.0.so
+/vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti:recovery/root/sbin/android.hardware.gatekeeper@1.0-service-qti
+/vendor/bin/hw/android.hardware.keymaster@4.0-service-qti:recovery/root/sbin/android.hardware.keymaster@4.0-service-qti
+/system/lib64/android.hardware.confirmationui@1.0.so:recovery/root/sbin/android.hardware.confirmationui@1.0.so
+/system/lib64/vndk-29/android.hardware.confirmationui-support-lib.so:recovery/root/sbin/android.hardware.confirmationui-support-lib.so
+/system/lib64/vndk-29/android.hardware.weaver@1.0.so:recovery/root/sbin/android.hardware.weaver@1.0.so
+/system/lib64/vndk-29/libpuresoftkeymasterdevice.so:recovery/root/sbin/libpuresoftkeymasterdevice.so
+/vendor/etc/selinux/vendor_file_contexts:recovery/root/vendor_file_contexts
+/vendor/etc/selinux/vendor_hwservice_contexts:recovery/root/vendor_hwservice_contexts
+/vendor/etc/selinux/vendor_property_contexts:recovery/root/vendor_property_contexts
+/vendor/etc/selinux/vendor_seapp_contexts:recovery/root/vendor_seapp_contexts
+/vendor/etc/selinux/vndservice_contexts:recovery/root/vndservice_contexts
+/system/etc/selinux/plat_file_contexts:recovery/root/plat_file_contexts
+/system/etc/selinux/plat_hwservice_contexts:recovery/root/plat_hwservice_contexts
+/system/etc/selinux/plat_property_contexts:recovery/root/plat_property_contexts
+/system/etc/selinux/plat_seapp_contexts:recovery/root/plat_seapp_contexts
+/system/etc/selinux/plat_service_contexts:recovery/root/plat_service_contexts
+/ueventd.rc:recovery/root/ueventd.rc

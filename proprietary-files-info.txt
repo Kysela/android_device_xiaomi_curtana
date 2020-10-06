@@ -1,0 +1,71 @@
+#
+# Copyright (C) 2020 ATGDroid <bythedroid@gmail.com>
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+
+FILE_PATH:SIZE_OF_FILE_IN_BYTES:MD5SUM_OF_FILE
+
+/system/usr/share/zoneinfo/tzdata:504430:9a85a90d1e4fbab63e117a2c6b95af49
+/vendor/bin/qseecomd:19848:17f4f3f851a394867385086438d362cc
+/vendor/lib64/libtime_genoff.so:15152:d638628902c09c6a6bab40dca985812f
+/vendor/lib64/libStDrvInt.so:15336:e90b1add80c3d0a64300d43a0e1f4156
+/vendor/lib64/libsecureui.so:37288:441ebd4fa1b71e1ed36228f5ad87bcd0
+/vendor/lib64/libGPreqcancel_svc.so:27792:3d8baff73ba31c9d11e6110ea8e9d960
+/vendor/lib64/libkeymasterprovision.so:32272:98bc920ad59dddf86629e7b70c976ede
+/vendor/lib64/libGPreqcancel.so:23768:3c0f46e99eb8cb82cff5fff580a4c898
+/vendor/lib64/libkeymasterdeviceutils.so:19536:8e64ed9d4afee3e8390afb6b44028148
+/vendor/lib64/libQSEEComAPI.so:35968:6f39e64b3240860b36985bea1c24ceb9
+/vendor/lib64/libsecureui_svcsock.so:38432:9ba834442370cfb9b07b5553d909c94a
+/vendor/lib64/libdrmtime.so:19464:0d604f64adc266a4c9c08409a8494c99
+/vendor/lib64/librpmb.so:36456:dd8fc2b1fc0b11adbffd1b9b0c468dd0
+/vendor/lib64/libdrmfs.so:36472:ae77dc500a5b37a5ae632b859eeabf2b
+/vendor/lib64/libssd.so:15320:83ecd7149d6a02d646427d3aae7893df
+/vendor/lib64/libSecureUILib.so:23832:9fca123b043c98f12b96e5500a25557f
+/vendor/lib64/libqisl.so:23944:abdc28aebdf5016563018255a1de8e14
+/vendor/lib64/libdiag.so:199200:3e1a71199fe02aa27c7f511031b4f3c9
+/vendor/lib64/libkeymasterutils.so:42696:75ea4169f61855d0dc737af800c9c18d
+/vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so:29024:4b9f09f654108eedb4544e9dbbdf43d1
+/system/etc/vintf/compatibility_matrix.1.xml:71968:410f42102d83be790c7ee07697aebe37
+/system/etc/vintf/compatibility_matrix.2.xml:74191:553007005f1be26775b5e11039f26239
+/system/etc/vintf/compatibility_matrix.3.xml:90344:d656ea6663a944c12fc730b2fa015fe2
+/system/etc/vintf/compatibility_matrix.4.xml:114114:fb5233c1434506dd06b29949c63a6fd0
+/system/etc/vintf/compatibility_matrix.device.xml:25185:777bb6904255e1a9cbb1a4fccbf8aa65
+/system/etc/vintf/compatibility_matrix.legacy.xml:71977:2dc9ce0dd6ce9130fe663a1a9bab4a74
+/system/etc/vintf/manifest.xml:4254:31472ab0de41f3c8b2f9a93017a936d2
+/vendor/lib/modules/exfat.ko:171718:0de55f093da6d0af598074d92b033994
+/vendor/manifest.xml:33101:235ade71e579a8009f4e0657843ab831
+/vendor/etc/vintf/compatibility_matrix.xml:2275:6ec9d6dadc1540158babb44a20dbdd29
+/vendor/etc/vintf/manifest.xml:38530:0dc9c0885f64ff28e0229c9cac3fa587
+/system/lib64/android.hardware.keymaster@3.0.so:140976
+/system/lib64/android.hardware.keymaster@4.0.so:158576
+/system/lib64/android.hidl.base@1.0.so:88536
+/system/lib64/android.hidl.token@1.0-utils.so:20544
+/system/lib64/android.system.wifi.keystore@1.0.so:88768
+/vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti:11520
+/vendor/bin/hw/android.hardware.keymaster@4.0-service-qti:11784
+/system/lib64/android.hardware.confirmationui@1.0.so:125520
+/system/lib64/vndk-29/android.hardware.confirmationui-support-lib.so:14920
+/system/lib64/vndk-29/android.hardware.weaver@1.0.so:84448
+/system/lib64/vndk-29/libpuresoftkeymasterdevice.so:46000
+/vendor/etc/selinux/vendor_file_contexts:65622:4af69fa22717ffb4b696da36eda61588 
+/vendor/etc/selinux/vendor_hwservice_contexts:10121:5b372c08bb43e7842fd596797fb70949 
+/vendor/etc/selinux/vendor_property_contexts:18586:8dacd731dcbbfe8e0592937b5ea7d950 
+/vendor/etc/selinux/vendor_seapp_contexts:1920:e04ab64c56d4a78d6a6f439abd230a31 
+/vendor/etc/selinux/vndservice_contexts:561:375d042b8daf267c95182e3931a635ee 
+/system/etc/selinux/plat_file_contexts:33626:ceced48868dcebf160e71f015725a259 
+/system/etc/selinux/plat_hwservice_contexts:8428:beebca6c57f46f53c3edfc5efd5f0842 
+/system/etc/selinux/plat_property_contexts:45374:e6c158cc10fca6947f867a7f2110035e 
+/system/etc/selinux/plat_seapp_contexts:3930:d469f8f62bd7400b2f973aa302a1280d 
+/system/etc/selinux/plat_service_contexts:19875:c808d863eac21abb9c56ca7c6c708aa9 
+/ueventd.rc:2711:5ffc07f7cfc49086ce8f0c901f4d97f7 
