@@ -135,8 +135,8 @@ else if (strcmp(model_id, "gram") == 0)
      set_device("POCO M2 Pro", "gram");
 else
      set_device("Redmi Note 9", "curtana");
-load_property_file_by_mount_point("/dev/block/dm-0", required_system_properties);
-load_property_file_by_mount_point("/dev/block/dm-2", required_vendor_properties);
+load_property_file_by_mount_point("/dev/block/mapper/system", required_system_properties);
+load_property_file_by_mount_point("/dev/block/mapper/vendor", required_vendor_properties);
 property_symlink("ro.build.fingerprint", "ro.bootimage.build.fingerprint");
 }
 }  // namespace init
