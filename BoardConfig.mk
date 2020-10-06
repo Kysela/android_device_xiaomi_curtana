@@ -85,7 +85,7 @@ BOARD_FLASH_BLOCK_SIZE := 262144
 BOARD_BOOTIMAGE_PARTITION_SIZE := 134217728
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 134217728
 
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_TREE):libinit_curtana
+TARGET_INIT_VENDOR_LIB := libinit_curtana
 TARGET_PLATFORM_DEVICE_BASE := /devices/platform/soc
 TARGET_RECOVERY_DEVICE_MODULES := libinit_curtana
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /config/usb_gadget/g1/functions/mass_storage.0/lun.%d/file
@@ -142,3 +142,19 @@ TARGET_USES_MKE2FS := true
 TW_EXCLUDE_TWRPAPP := true
 TW_NO_SCREEN_BLANK := true
 PLATFORM_VERSION := 16.1.0
+TW_DEFAULT_LANGUAGE := en
+
+# Custom TWRP Version
+TW_DEVICE_VERSION := 1 by t.me/ATGDroid
+
+# supress error messages while building
+ALLOW_MISSING_DEPENDENCIES := true
+
+#Build resetprop from source
+TW_INCLUDE_RESETPROP := true
+
+#Copy some props from installed system
+TW_OVERRIDE_SYSTEM_PROPS := "ro.build.product;ro.build.fingerprint=ro.system.build.fingerprint;ro.build.version.sdk;ro.build.version.security_patch;ro.build.version.release"
+
+TW_INCLUDE_REPACKTOOLS := true
+
